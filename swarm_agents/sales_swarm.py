@@ -48,3 +48,6 @@ class SalesSwarm(BaseSwarm):
         # Forecast revenue based on pitch and customer data
         revenue_forecast = self.revenue_forecaster.run(pitch, *args, **kwargs)
         return revenue_forecast
+
+
+SalesSwarm().run("Analyze these financial data and give me a summary")
