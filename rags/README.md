@@ -1,8 +1,23 @@
 ## RAGs
 
+### Table of Contents
+
+- [About](#about)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [1. The Jungle Book](#1-the-jungle-book)
+
 ### About
 
 This is a collection of RAGs (Retrieval Augmented Generation) models that I have created for different purposes.
+
+### Setup
+
+```bash
+python -m venv .venv
+source venv/bin/activate
+pip install -r rags/requirements.txt
+```
 
 ### 1. The Jungle Book
 
@@ -17,5 +32,3 @@ To run the model, use the following command:
 ```bash
 python rags/1_the_jungle_book_rag_model.py
 ```
-
-### 2.
