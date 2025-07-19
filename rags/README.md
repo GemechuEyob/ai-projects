@@ -14,18 +14,15 @@ This is a collection of RAGs (Retrieval Augmented Generation) models that I have
 ### Setup
 
 ```bash
+# clone this repo then run the following commands
 python -m venv .venv
-source venv/bin/activate
+source .venv/bin/activate
 pip install -r rags/requirements.txt
 ```
 
 ### 1. The Jungle Book
 
-This is a simple RAG model that uses Ollama to generate responses based on the embeddings of the text.
-
-- [1_the_jungle_book.txt](1_the_jungle_book.txt)
-- [1_the_jungle_book_rag_model.py](1_the_jungle_book_rag_model.py)
-- [1_the_jungle_book_embeddings.json](1_the_jungle_book_embeddings.json)
+This is a simple RAG model that uses Ollama to generate responses based on the embeddings of the text. When running the first time, It might take while to create the embedding.
 
 To run the model, use the following command:
 
